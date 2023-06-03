@@ -1,0 +1,42 @@
+*{
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color:coral;
+}
+
+h1{
+    font-size:2rem;
+    margin:0.75rem;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin:2rem;
+    border: solid 5px black;
+    border-radius: 1rem;
+}
+
+button{
+    padding:20px;
+    background-color: yellow;
+    color:black;
+    border: solid 3px black;
+    box-shadow: 6px 6px black;
+    cursor:pointer;
+}
+
+button:hover{
+    box-shadow: 3px 3px;
+    transition: ease-in-out;
+    transition-duration: 250ms;
+}
+
+.btn:active {
+    box-shadow: 0px;
+    top:6px;
+}
+
